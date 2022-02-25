@@ -2,7 +2,7 @@ from helpers import *
 
 # App constructor
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
-# server = app.server
+server = app.server
 
 # Methods
 # Methods
