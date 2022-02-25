@@ -1,0 +1,316 @@
+
+.h1 {
+    font-weight: bold;
+    text-align: left;
+    color: #333f54;
+    font-size: 42px;
+    padding: 20px 0px;
+}
+
+.h4 {
+    font-weight: bold;
+    text-align: left;
+    color: #333f54;
+    font-size: 24px;
+}
+
+.labels {
+    font-weight: bold;
+    text-align: left;
+    color: #333f54;
+    font-size: 16px;
+}
+
+.lab-a {
+    font-weight: bold;
+    text-align: left;
+    color: #333f54;
+    font-size: 14px;
+}
+
+.lab-b {
+    text-align: left;
+    color: #333f54;
+    font-size: 14px;
+}
+
+.lab-c {
+    color: gray;
+    text-align: left;
+    font-size: 12px;
+}
+
+.accordion-button {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.accordion-button {
+    height: 10px;
+}
+
+.accordion-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.download-button {
+    background-color: #333f54;
+    color: white;
+    border-color: none;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.export {
+    display: none;
+}
+
+.footer-grant{
+    font-size: 12px;
+    color: gray;
+    width: 450px;
+    padding: 0px 15px;
+}
+
+.footer-fcd{
+    font-size: 13px;
+    color: #333f54;
+    font-weight: bold;
+    padding: 0px 15px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+.footer-tiid {
+    font-size: 12px;
+    color: #333f54;
+    padding: 0px 15px;
+}
+
+.card-box {
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+    z-index: 1;
+}
+
+.card-box-behind {
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+    z-index: 0; /* If no z-index used dropdown menu hides behind card*/
+}
+
+.card-box-overview-dropdown{
+    z-index: 1;
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+    padding: 20px;
+    margin: 10px 20px;
+}
+
+.card-box-overview{
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+    z-index: 0;
+    padding: 20px;
+    margin: 5px 20px;
+}
+
+.card-box-metrics-dropdown{
+    z-index: 1;
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+    padding: 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+.methods-card-box {
+    padding: 50px;
+    margin: 50px;
+    filter: drop-shadow(5px 7px 3px #ecf3f6);
+}
+
+.downloads-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.downloads-card-item {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.downloads-card-container{
+    width: 30%;
+}
+
+.column-header--sort {
+    --accent: #f39c12;
+}
+
+.column-header-name {
+    width: 100%;
+    text-align: center;
+}
+
+.citation {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.citation-header {
+    font-weight: bold;
+    color: #333f54;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.meter-a {
+    width: 40%;
+    height: 50px;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.meter-b {
+    width: 40%;
+    height: 15px;
+    font-size: .7rem;
+    border-radius: 1rem;
+}
+
+.meter-c {
+    width: 100px;
+    height: 15px;
+    font-size: .7rem;
+    border-radius: 1rem;
+}
+
+.meter-c-big {
+    width: 250px;
+    height: 35px;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.meter-header {
+    color: #333f54;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.threshold-text {
+    margin-bottom: 0;
+    text-align: center;
+    color: gray;
+    font-size: .7rem;
+}
+
+.meter-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 15px 0px;
+}
+
+.card-container {
+    align-items: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.components-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    flex-wrap: wrap;
+}
+
+.metrics-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.component-labels {
+    font-weight: bold;
+    text-align: center;
+    color: #333f54;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.metrics-labels {
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+.component-element {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.modal-header {
+    background-color: lightslategrey;
+    color: white;
+}
+
+.metrics-container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e2e8e9;
+    width: 100%;
+    padding: 15px;
+}
+
+.value-cards-value {
+    text-align: center;
+    color: #333f54;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+/*Responsive CSS*/
+@media only screen and (max-width: 1200px) {
+
+  #controls {
+    /*background-color: blue;*/
+    flex-direction: column;
+  }
+
+  #controls-col {
+  width: 100%;
+  }
+
+  #charts-col {
+  width: 100%;
+  }
+
+  .value-cards-container {
+    display: flex;
+    flex-direction: column;
+    align-text: center;
+  }
+
+.downloads-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.components-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+}
